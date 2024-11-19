@@ -43,7 +43,7 @@ const getImages = async (req, res, next) => {
       ...gallery.toObject({ getters: true }),
       photos: gallery.photos.map((path) => {
         const formattedPath = path.replace(/\\/g, "/");
-        const fullPath = `http://localhost:5000/api/library/image-gallery${formattedPath}`;
+        const fullPath = `${process.env.IMAGE_PATH}${formattedPath}`;
         return fullPath;
       }),
     };
