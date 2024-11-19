@@ -15,7 +15,7 @@ const app = express();
 
 // CORS configuration
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173"); // Adjust for your frontend
+  res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173", "https://mekanplc.netlify.app"); // Adjust for your frontend
   res.setHeader("Access-Control-Allow-Methods", "GET, POST, PATCH, DELETE, OPTIONS");
   res.setHeader(
     "Access-Control-Allow-Headers",
