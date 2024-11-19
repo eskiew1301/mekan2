@@ -1,0 +1,13 @@
+{
+    "env":{
+        "DB_USER":"elseskie",
+        "DB_PASSWORD":"jGFePEfqmLAGyPoj",
+        "DB_NAME":"mekanMernDB",
+        "JWT_KEY":"mekanforbinimekan",
+        "SMTP_HOST":"smtp.gmail.com",
+        "SMTP_PORT":465,
+        "SMTP_MAIL":"elseskie@gmail.com",
+        "SMTP_PASSWORD":"atlj wcqe fyaf jpbx",
+        "PORT":5000 
+    }
+}
